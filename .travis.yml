@@ -2,5 +2,7 @@ language: python
 python:
   - "2.7"
   - "3.6"
+install:
+  - pip install -r requirements_travis.txt
 script:
   - pylint && pytest # or py.test for Python versions 3.5 and below
