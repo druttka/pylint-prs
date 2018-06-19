@@ -5,4 +5,4 @@ python:
 install:
   - pip install -r requirements_travis.txt
 script:
-  - pylint && pytest # or py.test for Python versions 3.5 and below
+  - pylint pylintprs && pytest # or py.test for Python versions 3.5 and below
